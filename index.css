@@ -4,7 +4,13 @@
 
 body {
     margin: 0px;
-    background: url("https://picsum.photos/2560/1440");
+}
+.image {
+    position: fixed;
+    object-fit: cover;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
 }
 
 .background {
